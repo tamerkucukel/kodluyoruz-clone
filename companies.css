@@ -1,0 +1,187 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* landing page */
+
+.landing-page {
+    background: linear-gradient(to bottom, rgb(45, 156, 219, 0.6), rgba(155, 81, 224, 0.6));
+    height: 32.1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    color: white;
+}
+
+.landing-page h1 {
+    font-size: 60px;
+    margin-bottom: .35em;
+}
+
+/* info */
+
+.info * {
+    margin-top: 3.15em;
+    display: block;
+    text-align: center;
+}
+
+section p {
+    color: rgb(110, 107, 107);
+    font-size: .89em;
+}
+
+section .blue-links {
+    width: fit-content;
+    margin: 2em auto;
+    padding: .8em;
+    border-radius: 50px;
+    background: linear-gradient(to right, rgb(45, 156, 219, 0.6), rgba(155, 81, 224, 0.6));
+    color: white;
+    text-decoration: none;
+}
+
+section .blue-links:hover {
+    text-decoration: underline;
+}
+
+/* references */
+
+.references {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+section h2 {
+    margin-bottom: .4em;
+    font-size: 2.25em;
+    font-weight: 800;
+    text-align: center;
+}
+
+.references .images {
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 1em;
+}
+
+.references .images img {
+    padding: .5em;
+}
+
+/* İNFO REFERNCES VS HEPSİİNDEN MARGİN BOTTOM VER */
+/* business */
+
+.business .card-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.business .card-section .card {
+    width: 23.5%;
+    margin: 0 .75em;
+    text-align: center;
+}
+
+.business .card-section .card img {
+    display: block;
+    margin: 0 auto;
+}
+
+.business .card-section .card h3 {
+    font-size: 1.5em;
+    font-weight: 600;
+    color: #404040;
+    margin: .5em 0;
+}
+
+.business .card-section .card a {
+    position: relative;
+    top: 1.5em;
+}
+
+/* examples */
+
+.examples {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    line-height: 1.5em;
+}
+
+.examples h2 {
+    position: relative;
+    top: .4em;
+}
+
+.examples .text1 {
+    margin-right: 3em;
+    width: 50%;
+}
+
+.examples .text1 a:not(.blue-links) {
+    color: black;
+    font-weight: bold;
+}
+
+.examples .text1 a:not(.blue-links):hover {
+    color: #ec871b;
+}
+
+.examples .example1 {
+    padding-bottom: 5em;
+}
+
+.examples .text2 {
+    margin-left: 3em;
+    width: 50%;
+}
+
+.examples .text2 a {
+    display: inline-block;
+    margin-top: 1em;
+}
+
+.blue-links:not(#hikayemiz) {
+    display: block;
+    margin: 1em auto;
+
+}
+.examples .example1, .example2 {
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+    margin: 2em 0;
+}
+
+footer {
+    height: fit-content;
+    margin-bottom: 3em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.info,
+.references,
+.business,
+.examples {
+    margin-bottom: 6em;
+}

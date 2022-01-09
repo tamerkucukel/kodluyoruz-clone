@@ -1,0 +1,253 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*Animations*/
+.hiddenInUp{
+    opacity: 0;
+    transform:translateY(4rem);
+}
+.hiddenIn{
+    opacity: 0;
+    transform: scale(0.6, 0.6);
+}
+.hiddenleft{
+    opacity: 0;
+    transform: translateX(-10rem);
+}
+.hiddenright{
+    opacity: 0;
+    transform: translateX(10rem);
+}
+.fadeInLeft{
+    animation: fadeInLeft ease-in-out 1s;
+}
+.fadeInRight{
+    animation: fadeInRight ease-in-out 1s;
+}
+.fadeIn{
+    animation: fadeIn ease-in-out 1s;
+}
+.fadeInUp{
+    animation: fadeInUp ease-in-out 1s;
+}
+@keyframes fadeInLeft{
+    from{
+        opacity:0;
+        transform: translateX(-10rem);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+@keyframes fadeInRight{
+    from{
+        opacity:0;
+        transform: translateX(10rem);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+@keyframes fadeIn{
+    from{
+        opacity:0;
+        transform: scale(0.6, 0.6);
+    }
+    to{
+        opacity: 1;
+    }
+}
+@keyframes fadeInUp{
+    from{
+        opacity:0;
+        transform: translateY(4rem);
+    }
+    to{
+        opacity: 1;
+    }
+}
+/* Navbar */
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em;
+    height: 4.6em;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600
+}
+
+nav a #kodluyoruz-logo {
+    width: 12.3em;
+    height: 2.59em;
+}
+
+nav .navbar-links a {
+    font-size: 0.85em;
+    font-weight: 500;
+    margin: 0.5em;
+    color: rgb(91, 90, 90);
+}
+
+nav .navbar-links a:hover {
+    color: black;
+}
+
+nav a#donate {
+    color: white;
+    background-color: #ec871b;
+    padding: .8em;
+    border-radius: 50px;
+    margin-right: 1.5em;
+}
+
+nav a#donate:hover {
+    background-color: #f39e58;
+}
+
+nav .right-section #lang, nav .right-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav #lang {
+    margin-right: .5em;
+    font-weight: 500;
+}
+/* footer */
+
+footer, .links-logo, .policy-socialMedia {
+    width: 100%;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #FAFAFA;
+    padding-top: 2rem;
+}
+
+footer .links-logo {
+    margin-bottom: 4em;
+}
+
+footer .sponsor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 8em;
+} 
+
+footer .sponsor h2 {
+    position: relative;
+    bottom: .75em;
+    font-size: 2.25em;
+}
+
+footer .sponsor p {
+    position: relative;
+    bottom: 1em;
+    font-size: 1.25em;
+    color: rgb(165, 162, 162);
+}
+
+.socialMedia img {
+    width: 24px;
+    height: 24px;
+}
+
+#ms-logo {
+    position: relative;
+    top: 2em;
+}
+
+.links-logo {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 0.9em;
+}
+
+footer table td {
+    color: rgb(165, 162, 162);
+    padding: .25em;
+}
+
+footer table tr:first-child td{
+    width: 15em;
+    text-align: left;
+    font-weight: 600;
+    letter-spacing: .05em;
+}
+
+footer table a {
+    color: rgb(118, 115, 115);
+    text-decoration: none;
+}
+
+footer table a:hover {
+    color:rgb(39, 38, 38);
+}
+
+.policy-socialMedia {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: rgb(165, 162, 162);
+}
+
+.policy-socialMedia p {   /* vertical alignment */
+    position: relative;
+    right: 1.4em;
+}
+
+.policy-socialMedia p a {
+    color: rgb(165, 162, 162);
+    font-size: .9em;
+    text-decoration: none;
+}
+
+.policy-socialMedia a:hover {
+    color: #ec871b;
+}
+
+.socialMedia a {
+    text-decoration: none;
+    opacity: .35;
+    margin-left: 1em;
+    position: relative;
+    left: .8em;
+}
+
+.socialMedia a:hover {
+    opacity: .55;
+}
+
+/* blue-links */
+
+.blue-links {
+padding: .5em 1em;
+border-radius: 50px;
+background: linear-gradient(to right, rgb(45, 156, 219, 0.6), rgba(155, 81, 224, 0.6));
+color: white;
+text-decoration: none;
+}
+
+.blue-links:hover {
+    text-decoration: underline;
+}

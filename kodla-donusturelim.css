@@ -1,0 +1,149 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* kodla donusturelim section */
+
+
+.landing-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    background-image: linear-gradient(rgb(45, 156, 219, 0.6), rgba(155, 81, 224, 0.6));
+    height: 75vh;
+}
+
+.landing-page img {
+    width: 10em;
+    height: auto;
+    background-color: white;
+    padding: .5em;
+    border-radius: 10px;
+    margin-top: .3em;
+}
+
+.landing-page *:not(img) {
+    margin-top: 1.5em;
+}
+
+.landing-page p:first-child {
+    font-size: 60px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+/* kodla donusturelim info section */
+ 
+.kodla-donusturelim-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.kodla-donusturelim-info h1 {
+    margin-top: 1em;
+    font-weight: bold;
+    font-size: 2.5em;
+}
+
+.kodla-donusturelim-info .videos iframe:first-child {
+    margin-right: 4em;
+}
+
+.kodla-donusturelim-info .projects {
+    display: flex;
+    justify-content: center;
+    width: 65em;
+}
+
+.kodla-donusturelim-info .projects div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+}
+
+.kodla-donusturelim-info .projects li {
+    margin: 1em 2em;
+}
+
+.kodla-donusturelim-info .orange-btn {
+    display: inline-block;
+    color: white;
+    background-color: #ec871b;
+    padding: .6em 1em;
+    border-radius: 50px;
+    text-decoration: none;
+}
+
+
+.kodla-donusturelim-info .orange-btn:hover {
+    text-decoration: underline;
+}
+
+.videos,
+.projects,
+.our-targets {
+    margin-bottom: 7em;
+}
+
+.kodla-donusturelim-info .our-targets {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.kodla-donusturelim-info .our-targets p, h1 {
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.our-targets #patika-link {
+    color: black;
+}
+
+.our-targets #patika-link:hover {
+    color: #ec871b;
+}
+
+/* events */
+.events {
+    background: linear-gradient(to right, rgb(45, 156, 219, 0.6), rgba(155, 81, 224, 0.6));
+    width: 100%;
+    height: 20em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+}
+
+.events ul li {
+    list-style-type: none;
+    display: block;
+    text-align: center;
+}
+
+.events .event-links a {
+    color: white;
+}
+
+.events #join-btn{
+    margin: 2em 0 6em 0;
+    box-shadow: 0 1px 3.5px rgb(41, 40, 40);
+}
+
+.events .event-links a:hover {
+    color: #ec871b;
+}
+
+
+
+

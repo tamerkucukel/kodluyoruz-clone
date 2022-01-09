@@ -1,0 +1,47 @@
+.contact-us {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    background-image: linear-gradient(to right, rgb(45, 156, 219, 0.6), rgba(155, 81, 224, 0.6));
+    height: 25vh;
+}
+
+.contact-us p {
+    font-size: 2.8em;
+    font-weight: 600;
+    text-align: center;
+}
+
+/* text and map */
+
+.text-map {
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    margin: 4em auto;
+    color: rgb(110, 107, 107);
+    line-height: 1.6em;
+}
+
+.text-map .blue-links {
+    display: block;
+    width: fit-content;
+    margin-top: 1em;
+}
+
+.text, .map {
+    width: 50%;
+}
+
+.text {
+    padding-right: 3.5em;
+}
+
+/* footer */
+
+footer {
+    height: fit-content;
+    margin: 4em 0;
+}

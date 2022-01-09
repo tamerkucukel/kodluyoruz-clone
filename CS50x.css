@@ -1,0 +1,109 @@
+.cs50x{
+    background-image: none;
+    background-color: white;
+}
+.cs50x h2{
+    color: #171717;
+    font-size: 36px;
+    padding: 0;
+}
+.cs50x p{
+    color: #1a1a1a;
+}
+.cs50x--w{
+    padding-bottom: 5rem;
+}
+.cs50x--w p span{
+    font-weight: 700;
+    color: #171717;
+}
+.btn--inpage{
+    box-shadow: 0px 1px 10px 0px rgba(0,0,0,0.2);
+}
+.azerbaycan{
+    padding-bottom: 4rem;
+}
+.azerbaycan h2{
+    letter-spacing: -0.9px;
+}
+.azerbaycan p:nth-child(3){
+    margin-bottom: 4rem;
+    font-weight: 700;
+}
+.azerbaycan p:nth-child(2) span{
+    font-weight: 700;
+}
+.azerbaycan a{
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 2rem;
+}
+.mentorship{
+    background-image: linear-gradient(to right , #7EC0E6 , #BF93E9);
+    color: white;
+    padding-bottom: 4rem;
+    padding-top: 2rem;
+    font-weight: 100;
+}
+.mentorship h2{
+    text-align: center;
+    font-size:36px;
+    margin-bottom: 0px;
+    font-weight: 800;
+}
+.mentor-1 > *{
+    margin-bottom: 2rem;
+}
+.mentor-2 > *{
+    margin-bottom: 2rem;
+}
+/*Card--person*/
+
+.person-1{
+    background-image: url(img/person-1.png);
+    background-size: cover;
+    background-position: center;
+}
+.card--person{
+    box-shadow: 0px 1px 10px 0px rgba(0,0,0,0.2);
+    width: max-content;
+    overflow: hidden;
+    border-radius: 4px;
+}
+
+.card--text{
+    
+    padding-left: 1rem;
+    width: 255px;
+    height: 380px;
+    background-color: white;
+    transition-duration: 500ms;
+    transform: translateY(75%);
+}
+.card--text h2{
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 0;
+    padding-top: 1rem;
+}
+.card--text p{
+    font-size: 16px;
+    font-weight: 100;
+}
+.card--text > p:nth-child(3n){
+    font-size:14px;
+}
+.card--text:hover{
+    transform: translateY(0);
+}
+#card--person > h2{
+    text-align: center;
+    font-size: 36px;
+    color: #171717;
+    letter-spacing: -0.9px;
+    margin-bottom: 0px;
+}
+.btn--inpage:hover{
+    text-decoration: underline;
+    background-color: #FB923C;
+}

@@ -1,0 +1,183 @@
+/* landing page*/
+.landing-page {
+    background: linear-gradient(to bottom, rgb(45, 156, 219, 0.6), rgba(155, 81, 224, 0.6));
+    height: 32.1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    color: white;
+}
+
+.landing-page h2 {
+    font-size: 3.75em;
+    font-weight: 700;
+}
+
+.landing-page p {
+    font-size: 1.25em;
+    text-align: center;
+}
+
+/* support now */
+
+.support-now {
+    text-align: center;
+    margin-top: 2.8em;
+}
+
+h3 {
+    font-size: 2.25em;
+    font-weight: 800;
+}
+
+.support-now p {
+    color: rgb(110, 107, 107);
+    margin: 2.25em 0;
+    font-weight: 100;
+}
+
+/* iban section */
+
+.iban {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 8em 0;
+}
+
+.iban h3 {
+    color: black;
+}
+
+.iban .img-text {
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    margin-top: 2em;
+}
+
+.iban .img-text .text {
+    margin: 0 0 0 3.5em;
+    color: rgb(110, 107, 107);
+    font-weight: 100;
+    font-size: .89em;
+}
+
+.iban .img-text .text a {
+    display: inline-block;
+    margin-top: 1em;
+}
+
+/* persons */
+
+.persons {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.persons .names {
+    font-weight: bold;
+    color: #404040;
+    font-size: 1.5em;
+}
+
+.persons p:last-of-type {
+    font-weight: 100;
+    margin-bottom: 2em;
+    padding: 0 1.5em;
+}
+
+/* present section */
+.present {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 8em 0 4em 0;
+    background: linear-gradient(to right, rgb(45, 156, 219, 0.6), rgba(155, 81, 224, 0.6));
+    color: white;
+    padding: 2.5em 0;
+}
+
+.present > h2 {
+    font-size: 2.25em;
+    font-weight: 800;
+}
+
+.present .img-text {
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    margin-top: 2em;
+}
+
+.present .img-text .text {
+    margin: 0 3.5em 0 0;
+    font-weight: 100;
+    font-size: 1em;
+}
+
+.present .img-text .text a {
+    display: inline-block;
+    margin-top: 1em;
+}
+
+/* transparency */
+
+.transparency {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.transparency h2 {
+    position: relative;
+    bottom: 1em;
+    font-size: 2.25em;
+    font-weight: 800;
+    color: #171717;
+}
+
+.transparency p {
+    color: #737373;
+    font-size: 1.25em;
+    line-height: 28px;
+    margin-bottom: 3em;
+}
+
+.transparency p a {
+    color: #807a7a;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.transparency p a:hover {
+    color: #ec871b;
+}
+
+.transparency .images {
+    width: 100%;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+/* footer */
+
+footer {
+    height: fit-content;
+    margin: 6em 0 2em 0;
+}

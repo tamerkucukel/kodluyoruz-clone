@@ -1,0 +1,102 @@
+.gelecek{
+    background-image: none;
+    background-color: white;
+    color: #171717;
+    font-size: 36px;
+}
+.gelecek p{
+    color: #1a202c;
+    font-weight: 100;
+    font-size: 16px
+}
+.levelup{
+    background-color: #F5F5F5;
+}
+#acikkaynak{
+    background-image: linear-gradient(to right , #7EC0E6 , #BF93E9);
+    color: white;
+}
+#acikkaynak > h2{
+    font-size: 36px;
+    text-align: center;
+    font-weight: 800;
+    letter-spacing: -0.9px;
+    padding-top: 2rem;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.acikkaynak{
+    padding-top: 0;
+}
+.acikkaynak__text{
+    text-align: center;
+    margin: auto;    
+}
+.acikkaynak__text h2{
+    font-size: 24px;
+    font-weight: 400;
+}
+.acikkaynak__text p,a{
+    font-size: 16px;
+    font-weight: 100;
+}
+.acikkaynak__text a:visited{
+    color: white;   
+}
+.acikkaynak__text a:hover{
+    color: #FB923C;   
+}
+.levelup > h2{
+    font-size: 36px;
+    font-weight: 800;
+    text-align: center;
+    padding-top: 3rem;
+    margin: 0 auto;
+}
+.levelup__desc{
+    color: #1a202c;
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 1.5rem;
+}
+.levelup__desc ul{
+    list-style-position: inside;
+    padding: 0;
+}
+.levelup_desc a{
+    display: block;
+    text-align: center;
+}
+.btn--center{
+    width: max-content;
+    margin: 2rem auto;
+}
+#Hi-Kod .levelup{
+    background-color: white;
+}
+#other-projects > div > h2{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+}
+.grid-3{
+    place-items: center;
+}
+#card--person > h2{
+    font-weight: 800;
+    letter-spacing: -0.9px;
+    margin-bottom: 0px;
+    margin-top: 6rem;
+}
+.grid-4{
+    row-gap: 2rem;
+}
+.inlink a{
+    color: #1a202c;
+}
+.inlink a:visited{
+    color: #1a202c;
+}
+.inlink a:hover{
+    color:#FB923C;
+}

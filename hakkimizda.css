@@ -1,0 +1,29 @@
+.podcast{
+    background-color: #F5F5F5;
+    padding: 2rem 12%;
+    text-align: center;
+    padding-bottom: 4rem;
+}
+.podcast h2{
+    font-size: 36px;
+    color: #171717;
+    font-weight: 800;
+    letter-spacing: -0.9px;
+    margin-bottom: 1rem;
+}
+.podcast p{
+    font-size: 16px;
+    font-weight: 100;
+    color: #1a202c;
+    margin-bottom: 3rem;
+}
+.btn--primary{
+    font-size: 16px;
+}
+.btn--secondary{
+    font-size: 16px;
+}
+.btn--inpage:hover{
+    text-decoration: underline;
+    background-color: #FB923C;
+}

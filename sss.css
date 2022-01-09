@@ -1,0 +1,46 @@
+/* landing page*/
+.landing-page {
+    background: linear-gradient(to bottom, rgb(45, 156, 219, 0.6), rgba(155, 81, 224, 0.6));
+    height: 32.1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    color: white;
+}
+
+.landing-page p {
+    font-size: 60px;
+    font-weight: 900;
+}
+
+/* faq section */
+
+.faq {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 75%;
+    margin: 3em auto;
+}
+
+.faq h1 {
+    font-size: 2.25em;
+    font-weight: 800;
+    margin-bottom: 1em;
+}
+
+.faq p {
+    padding: 1em;
+    box-shadow: 0 0 2px .1px rgb(159, 157, 157);
+    margin: .5em 0;
+}
+
+/* footer */
+
+footer {
+    height: fit-content;
+    margin: 3em 0;
+}
